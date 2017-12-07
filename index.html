@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+#<!DOCTYPE html>
 
 <html class="no-js fixed" lang="en">
 <head>
 	<style type="text/css">body, a, a:link{cursor:url(cursor.cur), default;} a:hover {cursor:url(cursor2.cur),wait;}</style>
-<meta charset="utf-8">
+@<meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="">
@@ -24,11 +24,10 @@
 		var space = "       ";
 		var speed = "88";
 		var pos = 0;
-		var msg = "H V R D W E L L";
+		var msg = "# H V R D W E L L";
 		function Scroll(){
 			document.title = msg.substring(pos, msg.length) + space + msg.substring(0,pos);
-			pos++;
-			if(pos > msg.length) pos = 0;
+			pos++;			if(pos > msg.length) pos = 0;
 			window.setTimeout("Scroll()", speed);
 		} Scroll();
 		-->
@@ -70,7 +69,7 @@
            <h1 class="animated infinite bounce"><span id="time" ></span></h1>
                   <div class="animation section-divider"></div>		   
                   <h1 class="section-title">
-	      <shake class="shake"># H V R D W E L L</span></shake>
+	      <shake class="shake">H V R D W E L L</span></shake>
 					<div class="media animate">
                   </h1>
                   <div class="animation section-divider"></div>
